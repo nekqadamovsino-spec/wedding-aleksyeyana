@@ -24,7 +24,6 @@ function sendRSVP(event){
   event.preventDefault();
   const name = document.getElementById("guestName").value.trim();
   const answer = document.getElementById("guestAnswer").value;
-  const comment = document.getElementById("guestComment").value.trim();
   const result = document.getElementById("formResult");
   result.textContent = "Отправляем...";
   fetch(WEB_APP_URL, {
