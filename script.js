@@ -93,3 +93,20 @@ if(envelopeScreen && openEnvelope){
     window.setTimeout(() => envelopeScreen.remove(), 2300);
   });
 }
+document.addEventListener("DOMContentLoaded", function () {
+    const video = document.getElementById("proposalVideo");
+
+    if (!video) return;
+
+    video.muted = true;
+    video.playsInline = true;
+
+    function startVideo() {
+        video.play().catch(() => {});
+    }
+
+    startVideo();
+
+    document.addEventListener("click", startVideo, { once: true });
+    document.addEventListener("touchstart", startVideo, { once: true });
+});
