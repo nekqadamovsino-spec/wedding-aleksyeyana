@@ -866,3 +866,115 @@ footer p{
 .signature{
     color:#8C7745 !important;
 }
+/* ===== ПРЕМИАЛЬНЫЙ RSVP ===== */
+
+.rsvp{
+    position:relative;
+    overflow:hidden;
+}
+
+.rsvp::before{
+    content:"";
+    position:absolute;
+    width:420px;
+    height:420px;
+    left:-180px;
+    top:-180px;
+    border-radius:50%;
+    background:rgba(243,234,195,.22);
+    filter:blur(70px);
+}
+
+.rsvp::after{
+    content:"";
+    position:absolute;
+    width:350px;
+    height:350px;
+    right:-140px;
+    bottom:-140px;
+    border-radius:50%;
+    background:rgba(255,255,255,.18);
+    filter:blur(70px);
+}
+
+.rsvp .screen{
+    position:relative;
+    z-index:2;
+
+    max-width:650px;
+    margin:auto;
+
+    padding:50px 40px;
+
+    border-radius:32px;
+
+    background:rgba(255,248,238,.38);
+
+    backdrop-filter:blur(18px);
+    -webkit-backdrop-filter:blur(18px);
+
+    border:1px solid rgba(255,255,255,.45);
+
+    box-shadow:
+        0 25px 60px rgba(0,0,0,.12),
+        inset 0 1px 0 rgba(255,255,255,.55);
+}
+
+.rsvp h2{
+    font-size:54px;
+    margin-bottom:18px;
+}
+
+.rsvp p{
+    max-width:500px;
+    margin:0 auto 35px;
+}
+.rsvp input,
+.rsvp select{
+    height:58px;
+    border-radius:16px;
+    border:1px solid rgba(216,201,143,.7);
+
+    background:rgba(255,255,255,.78);
+
+    padding:0 22px;
+
+    font-size:16px;
+
+    transition:.3s;
+}
+
+.rsvp input:focus,
+.rsvp select:focus{
+    outline:none;
+
+    border-color:#D8C98F;
+
+    box-shadow:0 0 0 4px rgba(243,234,195,.45);
+}
+.rsvp button{
+    height:58px;
+
+    border-radius:16px;
+
+    font-size:15px;
+    font-weight:600;
+
+    letter-spacing:2px;
+
+    background:#F3EAC3;
+
+    color:#7C6A3A;
+
+    border:2px solid #D8C98F;
+
+    transition:.3s;
+}
+
+.rsvp button:hover{
+    transform:translateY(-3px);
+
+    background:#EADFAF;
+
+    box-shadow:0 15px 35px rgba(216,201,143,.35);
+}
