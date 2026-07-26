@@ -454,13 +454,32 @@ body.envelope-locked{overflow:hidden}
 .envelope-branch-left{left:20%;transform:rotate(-27deg)}
 .envelope-branch-right{right:20%;transform:scaleX(-1) rotate(-27deg)}
 .envelope-seal{
-  position:absolute;z-index:10;left:50%;top:53%;width:78px;height:78px;
-  transform:translate(-50%,-50%);border-radius:50%;
-  display:grid;place-items:center;
-  background:radial-gradient(circle at 35% 30%,#e1c48b,#b58743 62%,#8e642d);
-  border:2px solid rgba(255,239,199,.75);
-  box-shadow:0 8px 18px rgba(70,43,17,.3),inset 0 0 0 4px rgba(111,74,28,.18),inset 0 2px 3px rgba(255,255,255,.35);
-  color:#fff1cd;transition:opacity .35s ease,transform .35s ease
+  position:absolute;
+  z-index:10;
+  left:50%;
+  top:53%;
+  width:78px;
+  height:78px;
+  transform:translate(-50%,-50%);
+  border-radius:50%;
+  display:grid;
+  place-items:center;
+
+  background: radial-gradient(circle at 35% 30%,
+      #FFF7D8 0%,
+      #F3EAC3 60%,
+      #E4D8A8 100%);
+
+  border:2px solid #D8C98F;
+
+  box-shadow:
+      0 8px 18px rgba(70,43,17,.18),
+      inset 0 0 0 4px rgba(255,255,255,.28),
+      inset 0 2px 3px rgba(255,255,255,.65);
+
+  color:#8C7745;
+
+  transition:opacity .35s ease,transform .35s ease;
 }
 .seal-ring{position:absolute;inset:8px;border:1px solid rgba(255,241,205,.5);border-radius:50%}
 .seal-initials{font-family:"Cormorant Garamond",serif;font-size:24px;letter-spacing:.04em;text-shadow:0 1px 2px rgba(64,36,10,.55)}
