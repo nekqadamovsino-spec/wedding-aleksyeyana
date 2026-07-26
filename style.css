@@ -731,15 +731,3 @@ body.envelope-locked{overflow:hidden}
 .envelope-bottom-circle{
     display:none !important;
 }
-/* Последний экран */
-.hero{
-    background:#B9C9AE !important;
-}
-
-.hero-content{
-    background:transparent !important;
-}
-
-.hero-overlay{
-    display:none !important;
-}
