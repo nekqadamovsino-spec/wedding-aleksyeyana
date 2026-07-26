@@ -491,7 +491,15 @@ body.envelope-locked{overflow:hidden}
 }
 
 .envelope-text{display:block;margin-top:30px;font-family:"Cormorant Garamond",serif;font-size:27px;line-height:1.15;color:#fff8e9;text-shadow:0 3px 14px rgba(0,0,0,.7)}
-.envelope-arrow{display:block;margin-top:8px;color:#e7bf7b;font-size:31px;line-height:1;animation:envelopeArrow 1.5s ease-in-out infinite}
+.envelope-arrow{
+    display:block;
+    margin-top:8px;
+    color:#D8C98F;
+    font-size:31px;
+    line-height:1;
+    text-shadow:0 2px 8px rgba(0,0,0,.25);
+    animation:envelopeArrow 1.5s ease-in-out infinite;
+}
 @keyframes envelopeArrow{0%,100%{transform:translateY(0);opacity:.65}50%{transform:translateY(7px);opacity:1}}
 
 .envelope-button.opening .envelope-flap{transform:rotateX(180deg)}
