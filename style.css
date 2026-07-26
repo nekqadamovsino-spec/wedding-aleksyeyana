@@ -819,3 +819,50 @@ h1 span,
 .countdown-names span{
     color:var(--cream) !important;
 }
+/* ===== ШАЛФЕЙНЫЕ СЕКЦИИ ===== */
+
+.invite,
+.meal-section,
+.gallery-section,
+.rsvp,
+footer{
+    background:#B9C9AE !important;
+}
+
+/* Не трогаем секции с фотографиями */
+.hero,
+.countdown-fullscreen,
+.location{
+    background:unset;
+}
+
+/* Карточки */
+.location-card,
+.wishes-card{
+    background:rgba(251,247,234,.88) !important;
+}
+
+/* Заголовки */
+.script,
+.gallery-section h2,
+.meal-section h2,
+.rsvp h2,
+footer .monogram{
+    color:#F8F6ED !important;
+}
+
+/* Основной текст */
+.invite p,
+.meal-section p,
+.gallery-section p,
+.rsvp p,
+footer p{
+    color:#4F5D49 !important;
+}
+
+/* Орнаменты */
+.ornament,
+.overline,
+.signature{
+    color:#8C7745 !important;
+}
