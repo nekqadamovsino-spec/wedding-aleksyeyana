@@ -645,3 +645,18 @@ body.envelope-locked{overflow:hidden}
 .meal-section p:last-child{max-width:760px;margin:0 auto;font-size:18px;line-height:1.8}
 .gallery-video{width:100%;display:block;margin:0 0 16px;break-inside:avoid;background:#000;max-height:620px;object-fit:cover}
 @media(max-width:760px){.meal-section p:last-child{font-size:16px}.gallery-video{max-height:520px}}
+.love-story-video {
+    width: 100%;
+    max-width: 420px;
+    margin: 60px auto;
+    padding: 0 20px;
+}
+
+.love-story-video video {
+    width: 100%;
+    display: block;
+    border-radius: 24px;
+    overflow: hidden;
+    box-shadow: 0 20px 45px rgba(0,0,0,.18);
+    background: #000;
+}
