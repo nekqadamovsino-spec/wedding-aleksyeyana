@@ -744,3 +744,78 @@ footer p{
 footer .monogram span{
     color:#F3EAC3;
 }
+/* ===== ЕДИНАЯ ШАЛФЕЙНАЯ ПАЛИТРА ===== */
+
+:root{
+    --sage:#B9C9AE;
+    --sage-light:#C7D3BC;
+    --cream:#F3EAC3;
+    --cream-light:#FBF7EA;
+    --text:#4F5D49;
+}
+
+/* Все основные секции */
+.invite,
+.date-section,
+.gallery-section,
+.rsvp,
+.meal-section,
+.place,
+.story,
+.location,
+footer{
+    background:var(--sage) !important;
+}
+
+/* Таймер */
+.countdown-fullscreen{
+    background:var(--sage) !important;
+}
+
+/* Если фото нет — фон будет шалфейным */
+.countdown-dark{
+    background:
+        linear-gradient(rgba(185,201,174,.18),rgba(127,146,118,.45)) !important;
+}
+
+/* Карточки */
+.location-card,
+.place-info,
+.wishes-card{
+    background:rgba(251,247,234,.88) !important;
+    border:1px solid rgba(216,201,143,.6) !important;
+}
+
+/* Заголовки */
+h1,
+h2,
+.script,
+.monogram,
+.location-card h2,
+.countdown-title{
+    color:var(--cream-light) !important;
+}
+
+/* Основной текст */
+p,
+.location-item p,
+.location-label,
+.signature,
+.overline{
+    color:var(--text) !important;
+}
+
+/* Белый текст поверх фотографий */
+.hero p,
+.hero h1,
+.hero .date-line,
+.countdown-full-content{
+    color:#FFFDF8 !important;
+}
+
+/* Кремовые акценты */
+.monogram span,
+h1 span,
+.countdown-names span{
+    color:var(--cream) !important;
+}
