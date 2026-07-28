@@ -789,3 +789,6 @@ footer .monogram span{
 .envelope-screen::after{
     display:none !important;
 }
+.envelope-screen::before{
+    display:none !important;
+}
