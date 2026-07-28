@@ -773,9 +773,11 @@ footer .monogram span{
 .location-photo-bottom{
     display:block;
     width:100%;
-    max-width:420px;
-    height:220px;
-    object-fit:cover;
+    max-width:480px;      /* было 420px */
+
+    height:auto;          /* вместо фиксированной высоты */
+
+    object-fit:contain;   /* показать фото полностью */
 
     margin:24px auto 0;
 
