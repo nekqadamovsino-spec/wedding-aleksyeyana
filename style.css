@@ -745,20 +745,23 @@ footer .monogram span{
     color:#F3EAC3;
 }
 .location-gallery{
-    display:grid;
-    grid-template-columns:1fr 1fr;
-    gap:12px;
-    margin-bottom:28px;
+    display:flex;
+    justify-content:center;
+    margin:0 auto 30px;
 }
 
 .location-gallery img{
-    width:100%;
+    width:220px;
     height:220px;
     object-fit:cover;
-    border-radius:20px;
+
+    display:block;
+    margin:0 auto;
+
+    border-radius:22px;
     border:3px solid rgba(255,255,255,.45);
-    box-shadow:0 10px 25px rgba(0,0,0,.15);
-    transition:.3s;
+
+    box-shadow:0 15px 35px rgba(0,0,0,.18);
 }
 
 .location-gallery img:hover{
