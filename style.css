@@ -745,8 +745,11 @@ footer .monogram span{
     color:#F3EAC3;
 }
 .location-gallery{
+    width:100%;
     display:flex;
     justify-content:center;
+    align-items:center;
+    gap:16px;
     margin:0 auto 30px;
 }
 
