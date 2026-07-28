@@ -792,3 +792,19 @@ footer .monogram span{
 .envelope-screen::before{
     display:none !important;
 }
+.envelope-button,
+.envelope-button:hover,
+.envelope-button:focus,
+.envelope-button:active{
+    display:block !important;
+    margin:0 !important;
+    padding:0 !important;
+
+    background:transparent !important;
+    border:none !important;
+    border-radius:0 !important;
+    box-shadow:none !important;
+
+    transform:none !important;
+    outline:none !important;
+}
